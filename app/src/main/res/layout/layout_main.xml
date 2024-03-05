@@ -6,11 +6,11 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:gravity="top"
         android:id="@+id/edittext_sample"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:autofillHints="Type text"
+        android:gravity="top"
         android:inputType="text"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
