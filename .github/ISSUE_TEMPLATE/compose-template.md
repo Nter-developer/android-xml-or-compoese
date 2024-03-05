@@ -6,8 +6,6 @@ labels: 'compose'
 assignees: ''
 ---
 
-## 💡 학습한 점
+## 💡 학습 포인트
 
 -
-
-> Close #{issue number}
