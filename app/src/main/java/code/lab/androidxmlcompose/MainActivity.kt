@@ -16,8 +16,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // View binding for xml layout
-        // setContentView(R.layout.layout_main)
-        setContent {
+        setContentView(R.layout.layout_main)
+        /* setContent {
             AndroidXMLComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                 }
             }
-        }
+        } */
     }
 }
 
