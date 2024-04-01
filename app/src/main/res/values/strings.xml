@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndroidXMLCompose</string>
+    <string name="textview_item_1">textview_item_1</string>
+    <string name="textview_item_2">textview_item_2</string>
+    <string name="textview_item_3">textview_item_3</string>
 </resources>
