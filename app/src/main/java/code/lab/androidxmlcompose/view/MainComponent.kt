@@ -1,4 +1,8 @@
 package code.lab.androidxmlcompose.view
 
-class MainComponent {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun MainComponent() {
+
 }
