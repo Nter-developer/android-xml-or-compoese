@@ -1,5 +1,6 @@
 package code.lab.androidxmlcompose.view
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -12,10 +13,17 @@ fun MainScreen() {
     AndroidXMLComposeTheme {
         // A surface container using the 'background' color from the theme
         Surface(
-            modifier = Modifier.fillMaxSize(),
-            color = MaterialTheme.colorScheme.background
+            modifier = Modifier
+                .fillMaxSize(),
+            color = MaterialTheme
+                .colorScheme
+                .background
         ) {
-            MainComponent()
+            Column {
+                MainComponent("ItemA", "This is ItemA")
+                MainComponent("ItemA", "This is ItemA")
+                MainComponent("ItemA", "This is ItemA")
+            }
         }
     }
 }
